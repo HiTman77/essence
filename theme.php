@@ -27,7 +27,7 @@
 		<?= $Wcms->alerts() ?>
 		<nav class="navbar navbar-expand-lg navbar-light navbar-default">
 			<div class="container">
-				<a class="navbar-brand" href="<?= $Wcms->url() ?>"><?= $Wcms->siteTitle() ?></a>
+<a class="navbar-brand" href="<?=$Wcms->url()?>" title="<?=$Wcms->page('title')?> on <?=$Wcms->get('config','siteTitle')?>"><img src="/data/files/logo.png" alt="<?=$Wcms->page('title')?>"></a>
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggler navbar-toggle" data-toggle="collapse" data-target="#menu-collapse">
 						<span class="navbar-toggler-icon">
