@@ -46,16 +46,15 @@
 		</nav>
 		<section class="container mt-5 mb-5">
 			<div class="row">
-				<div class="col-lg-12 my-auto text-center padding40">
+				<div class="col-lg-12 my-auto text-left padding40">
 					<?= $Wcms->page('content') ?>
-
 				</div>
 			</div>
 		</section>
 		<div class="h-05"></div>
 		<section class="container-fluid mt-5 mb-5 flex-grow">
 			<div class="row customBackground">
-				<div class="col-lg-12 my-auto text-center padding40 resetTextRotation">
+				<div class="col-lg-12 my-auto text-left padding40 resetTextRotation">
 					<?= $Wcms->block('subside') ?>
 
 				</div>
